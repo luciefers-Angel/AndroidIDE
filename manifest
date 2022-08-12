@@ -2,7 +2,7 @@
     "android_sdk": {
         "_33_0_1_rc1": {
             "aarch64": {
-                "sdk": "https://github.com/luciefers-Angel/AndroidIDE/releases/download/untagged-bdd83130294bc28e7225/android-sdk-33.0.1-aarch64.tar.xz"
+                "sdk": "https://github.com/luciefers-Angel/AndroidIDE/releases/download/sdk/android-sdk-33.0.1-aarch64.tar.xz"
             },
 
             "arm": {
