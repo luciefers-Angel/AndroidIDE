@@ -29,7 +29,7 @@ print_help() {
     echo "This script helps you easily install build tools in AndroidIDE."
     echo ""
     echo "Usage:"
-    echo "${0} -s 33.0.1 s -c -j 17"
+    echo "${0} -s 33.0.1 -c -j 17"
     echo "This will install Android SDK 33.0.1 with command line tools and JDK 17."
     echo ""
     echo "Options :"
@@ -37,7 +37,7 @@ print_help() {
     echo "-s   Android SDK version to download."
     echo "-c   Download Android SDK with command line tools."
     echo "-j   Choose whether to install JDK 11 or JDK 17. Please note that JDK 17 must be preferred. This option will be removed in future."
-    echo "-m   Manifest file URL. Defaults to 'manifest.json' in 'sdk' GitHub repository."
+    echo "-m   Manifest file URL. Defaults to 'manifest.json' in 'androidide-build-tools' GitHub repository."
     echo ""
     echo "For testing purposes:"
     echo "-a   CPU architecture. Extracted using 'uname -m' by default."
@@ -109,7 +109,7 @@ install_dir=$HOME
 sdk_version=33.0.1
 with_cmdline=false
 jdk_version=17
-manifest="https://raw.githubusercontent.com/luciefers-Angel/AndroidIDE/main/manifest"
+manifest="https://raw.githubusercontent.com/itsaky/androidide-build-tools/main/manifest.json"
 pkgm="pkg"
 pkg_curl="libcurl"
 
