@@ -29,7 +29,7 @@ print_help() {
     echo "This script helps you easily install build tools in AndroidIDE."
     echo ""
     echo "Usage:"
-    echo "${0} -s 33.0.1 -c -j 17"
+    echo "${0} -s 33.0.1 s 31.0.0-rc1 -c -j 17"
     echo "This will install Android SDK 33.0.1 with command line tools and JDK 17."
     echo ""
     echo "Options :"
